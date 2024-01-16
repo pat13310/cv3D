@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Title</title>
+<!--    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>-->
+    <link rel="stylesheet" href="node_modules/boxicons/css/boxicons.min.css">
+    <link href="cvo.min.css" rel='stylesheet'>
+</head>
+<body>
+<div class="wrapper">
+    <div class="cover cover-left"></div>
+
+    <div class="cover cover-right turn"></div>
+    <div class="book">
+        <div class="book-page page-left">
+            <div class="profile-page">
+                <img src="../cv/photo.jpg" alt="image"/>
+                <h1>Garcia Patrick</h1>
+                <h3>Développeur Web</h3>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+                <p>Développeur web passionné, je suis déterminé à créer des expériences digitales mémorables. Fort
+                    en résolution de problèmes techniques, je m'engage à apporter ma contribution à vos projets
+                    web.</p>
+                <div class="btn-box">
+                    <a href="#" class="btn">Télécharger CV</a>
+                    <a href="#" onclick="setFirstLastPage(true)" class="btn">Contactez moi</a>
+                </div>
+            </div>
+        </div>
+        <div class="book-page page-right" style="z-index:19" id="turn-1">
+            <!-- page education -->
+            <div class="page-front">
+                <div class="workeduc-box">
+                    <h1 class="title">Expérience professionelle</h1>
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i>2023 - 2022</span>
+                        <h2>Développeur Web - Société Résurgences</h2>
+                        <p> J'ai contribué au succès de divers projets web en utilisant PHP, afin de créer des solutions
+                            dynamiques et performantes.</p>
+                    </div>
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i>2023 - 2022</span>
+                        <h2>Développeur Web - Société Résurgences</h2>
+                        <p> J'ai contribué au succès de divers projets web en utilisant PHP, afin de créer des solutions
+                            dynamiques et performantes.</p>
+                    </div>
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i>2023 - 2022</span>
+                        <h2>Développeur Web - Société Résurgences</h2>
+                        <p> J'ai contribué au succès de divers projets web en utilisant PHP, afin de créer des solutions
+                            dynamiques et performantes.</p>
+                    </div>
+                    <div class="workeduc-content">
+                        <span class="year"><i class='bx bxs-calendar'></i>2023 - 2022</span>
+                        <h2>Développeur Web - Société Résurgences</h2>
+                        <p> J'ai contribué au succès de divers projets web en utilisant PHP, afin de créer des solutions
+                            dynamiques et performantes.</p>
+                    </div>
+                </div>
+                <span class="number-page">1</span>
+                <span class="nextprev-btn" data-page="turn-1"><i class='bx bx-right-arrow-circle'></i></span>
+            </div>
+            <div class="page-back">
+                <h1 class="title">Expérience scolaire</h1>
+                <div class="workeduc-content">
+                    <span class="year"><i class='bx bxs-calendar'></i>2023 - 2022</span>
+                    <h2>Développeur Web - Société Résurgences</h2>
+                    <p>J'ai contribué au succès de divers projets web en utilisant PHP, afin de créer des solutions
+                        dynamiques et performantes.</p>
+                </div>
+                <div class="workeduc-content">
+                    <span class="year"><i class='bx bxs-calendar'></i>2023 - 2022</span>
+                    <h2>Développeur Web - Société Résurgences</h2>
+                    <p> J'ai contribué au succès de divers projets web en utilisant PHP, afin de créer des solutions
+                        dynamiques et performantes.</p>
+                </div>
+                <span class="number-page">2</span>
+                <span class="nextprev-btn back" data-page="turn-1"><i class='bx bx-left-arrow-circle'></i></span>
+            </div>
+        </div>
+        <div class="book-page page-right" style="z-index:18" id="turn-2">
+            <div class="page-front">
+                <h1 class="title">Mes services</h1>
+                <div class="services-box">
+
+                    <div class="services-content">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Développement Web</h3>
+                        <p>blablalaalaalalalalaalalalalalalaalaaalla</p>
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
+
+                    <div class="services-content">
+                        <i class='bx bx-palette'></i>
+                        <h3>Conception graphique</h3>
+                        <p>blablalaalaalalalalaalalalalalalaalaaalla</p>
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
+
+                    <div class="services-content">
+                        <i class='bx bx-search'></i>
+                        <h3>SEO</h3>
+                        <p>blablalaalaalalalalaalalalalalalaalaaalla</p>
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
+
+                </div>
+                <span class="number-page">3</span>
+                <span class="nextprev-btn" data-page="turn-2"><i class='bx bx-right-arrow-circle'></i></span>
+            </div>
+            <div class="page-back">
+                <div class="skills-box">
+                    <h1 class="title">Mes compétences</h1>
+                    <div class="skills-content">
+                        <h3>Front-End</h3>
+                        <div class="content">
+                            <span><i class='bx bxl-html5'></i>HTML</span>
+                            <span><i class='bx bxl-javascript'></i>Javascript</span>
+                            <span><i class='bx bxl-css3'></i>CSS</span>
+                            <span><i class='bx bxl-bootstrap'></i>Bootstrap</span>
+                            <span><i class='bx bxl-tailwind-css'></i>Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <h3>Back-End</h3>
+                        <div class="content">
+                            <span><i class='bx bxl-python'></i>Python</span>
+                            <span><i class='bx bxl-java'></i>Java</span>
+                            <span><i class='bx bxl-php'></i>PHP</span>
+                            <span><i class='bx bxl-nodejs'></i>Node</span>
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <h3>UI/UIX Design</h3>
+                        <div class="content">
+                            <span><i class='bx bxl-figma'></i>Figma</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="number-page">4</span>
+                <span class="nextprev-btn back" data-page="turn-2"><i class='bx bx-left-arrow-circle'></i></span>
+            </div>
+
+        </div>
+        <div class="book-page page-right " style="z-index:17"id="turn-3">
+            <div class="page-front">
+                <div class="portfolio-box">
+                    <h1 class="title">Mes projets</h1>
+                    <div class="image-box">
+                        <img src="portfolio.jpg" alt="portfolio-img"/>
+                    </div>
+                    <div class="info-box">
+                        <div class="info-title">
+                            <h3>Maquettes Web</h3>
+                            <a class="link" href="">Aperçu <i class='bx bx-link-external'></i></a>
+                        </div>
+                        <p>fsldfksdùmlfksdlfjsdkmfjsdkmfjsdfmksdjfsdmfjsdkmfjsdmfjsdmklf</p>
+
+                        <div class="btn-box">
+                            <a href="" class="btn">Code</a>
+                            <a href="" class="btn">Davantage</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="number-page">5</span>
+                <span class="nextprev-btn" data-page="turn-3"><i class='bx bx-right-arrow-circle'></i></span>
+            </div>
+
+            <div class="page-back">
+                <div class="contact-box">
+                    <h1 class="title">Contactez moi</h1>
+                    <form action="#">
+                        <input type="text" class="field" name="name" placeholder="Votre nom" required>
+                        <input type="email" class="field" name="email" placeholder="Votre adresse e-mail" required>
+                        <textarea class="field" name="message" placeholder="Votre message" cols="40"
+                                  rows="10"></textarea>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+                <span class="number-page">6</span>
+                <span class="nextprev-btn back" data-page="turn-3"><i class='bx bx-left-arrow-circle'></i></span>
+
+                <a href="#" onclick="setFirstLastPage(false); " class="back-profile" ><p>Profil</p><i class='bx bxs-user' ></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="cv.js"></script>
+</body>
+</html>
